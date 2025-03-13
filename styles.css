@@ -1,0 +1,111 @@
+/*styles.css*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    text-align: center;
+    background-color: #444;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+section {
+    margin: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.about img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+/*.skills, .education {
+    display: flex;
+    flex-wrap: wrap;
+}*/
+.skills div, .education div {
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Container for all projects */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 200px; /* Space between project cards */
+    padding: 20px;
+}
+
+/* Project cards styling */
+.project-card {
+    border: 1px solid #ccc; /* Light border around each project card */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Prevent content overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.3s ease; /* Smooth scaling effect on hover */
+}
+
+/* Add hover effect to scale the project card */
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+/* Style for the preview image */
+.project-image {
+    width: 100%; /* Make the image fill the width of the card */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the space without distortion */
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+}
+
+/* Change the image opacity when hovered */
+.project-card:hover .project-image {
+    opacity: 0.8;
+}
+
+/* Style for the project name */
+.project-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+    background-color: #f4f4f4; /* Light background for the name */
+    margin: 0;
+    color: #333; /* Dark text for better readability */
+}
+
+/* Optional: Style for links (removes default styling) */
+.project-card a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from parent */
+}
