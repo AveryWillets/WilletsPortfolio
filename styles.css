@@ -77,7 +77,7 @@ footer {
 }
 
 .skill-item {
-    width: 40%;  /* Adjust to fit the container */
+    width: 100%;  /* Adjust to fit the container */
     box-sizing: border-box;
 }
 
