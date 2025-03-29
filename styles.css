@@ -45,10 +45,10 @@ h2 {
     height: auto;
     border-radius: 50%;
 }
-/*.skills, .education {
+.skills, .education {
     display: flex;
     flex-wrap: wrap;
-}*/
+}
 .skills div {
     display: flex;
     flex-wrap: wrap;
