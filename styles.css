@@ -62,15 +62,15 @@ footer {
 }
 
 
-.skills-container {
+skills-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
 }
 
-.skill-item {
-    width: 45%;  /* Adjust to fit the container */
+skill-item {
+    width: 40%;  /* Adjust to fit the container */
     box-sizing: border-box;
 }
 
