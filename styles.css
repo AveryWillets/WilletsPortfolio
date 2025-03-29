@@ -59,35 +59,49 @@ h2 {
 
 
 
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-
 #skills {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Optional: adds space between items */
+    flex-direction: column;
+    gap: 20px; /* Add spacing between sections */
+    padding: 20px;
 }
 
-#skills .item {
+.skills-container {
     display: flex;
-    flex-direction: column;  /* Ensure <h2> stays above <p> */
-    width: 48%;  /* Adjust to have two items per row */
-    box-sizing: border-box;  /* Ensures padding/margins are accounted for in width */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    gap: 20px; /* Space between items */
 }
 
-#skills .item h2 {
-    margin: 0;  /* Optional: remove margin for more control */
-    font-size: 1.2rem;  /* Adjust size as needed */
+.skills-container ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
-#skills .item p {
-    font-size: 1rem;  /* Adjust size as needed */
+.skills-container .item {
+    display: flex;
+    flex-direction: column;  /* Stack <h3> above <p> */
+    width: 48%;  /* Adjust this for two columns */
+    box-sizing: border-box;  /* Account for padding/margins */
 }
 
+.skills-container .item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.skills-container .item p {
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .skills-container .item {
+        width: 100%; /* Stack items vertically on smaller screens */
+    }
+}
 
 
 
