@@ -45,53 +45,54 @@ h2 {
     height: auto;
     border-radius: 50%;
 }
-.skills, .education {
+
+
+
+
+/*.skills, .education {
     display: flex;
     flex-wrap: wrap;
 }
-.skills div {
+*/
+
+
+
+
+
+.skills {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.education div {
-    display: block;
-    margin-right: 20px;
-    margin-bottom: 15px;
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-}
-
-
-.skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-}
-
-.skill-item {
-    width: 100%;  /* Adjust to fit the container */
-    box-sizing: border-box;
-}
 
 #skills {
-    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Optional: adds space between items */
 }
 
-h2 {
-    text-align: center;
+#skills .item {
+    display: flex;
+    flex-direction: column;  /* Ensure <h2> stays above <p> */
+    width: 48%;  /* Adjust to have two items per row */
+    box-sizing: border-box;  /* Ensures padding/margins are accounted for in width */
 }
 
-h3 {
-    margin-top: 0;
+#skills .item h2 {
+    margin: 0;  /* Optional: remove margin for more control */
+    font-size: 1.2rem;  /* Adjust size as needed */
 }
+
+#skills .item p {
+    font-size: 1rem;  /* Adjust size as needed */
+}
+
+
+
+
+
+
 
 /* Container for all projects */
 .projects-container {
@@ -143,4 +144,19 @@ h3 {
 .project-card a {
     text-decoration: none; /* Remove underline */
     color: inherit; /* Inherit text color from parent */
+}
+
+
+.education div {
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
 }
