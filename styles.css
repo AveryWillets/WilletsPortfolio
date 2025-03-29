@@ -38,7 +38,8 @@ h2 {
     color: #333;
 }
 .about img {
-    margin: auto
+    display: block;
+    margin: auto;
     width: 200px;
     height: auto;
     border-radius: 50%;
