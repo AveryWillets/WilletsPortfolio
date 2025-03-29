@@ -158,6 +158,10 @@ h2 {
     color: #333; /* Dark text for better readability */
 }
 
+#project-paragraph {
+    text-align: center;
+}
+
 /* Optional: Style for links (removes default styling) */
 .project-card a {
     text-decoration: none; /* Remove underline */
