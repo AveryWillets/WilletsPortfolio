@@ -61,7 +61,7 @@ footer {
     color: white;
 }
 
-/* Skills styling */
+
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -70,7 +70,7 @@ footer {
 }
 
 .skill-item {
-    width: 48%;  /* Adjust to fit the container */
+    width: 45%;  /* Adjust to fit the container */
     box-sizing: border-box;
 }
 
