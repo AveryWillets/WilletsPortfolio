@@ -50,9 +50,9 @@ h2 {
     flex-wrap: wrap;
 }*/
 .skills div {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /*creating 2 equal columns*/
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .education div {
