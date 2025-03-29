@@ -38,6 +38,7 @@ h2 {
     color: #333;
 }
 .about img {
+    margin: auto
     width: 200px;
     height: auto;
     border-radius: 50%;
@@ -57,6 +58,31 @@ footer {
     background-color: #333;
     color: white;
 }
+
+/* Skills styling */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    }
+
+.skill-item {
+    width: 48%;  /* Adjust to fit the container */
+    box-sizing: border-box;
+    }
+
+#skills {
+    padding: 20px;
+    }
+
+h2 {
+    text-align: center;
+    }
+
+h3 {
+    margin-top: 0;
+    }
 
 /* Container for all projects */
 .projects-container {
