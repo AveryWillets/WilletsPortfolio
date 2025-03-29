@@ -49,11 +49,21 @@ h2 {
     display: flex;
     flex-wrap: wrap;
 }*/
-.skills div, .education div {
+.skills div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.education div {
     display: block;
     margin-right: 20px;
     margin-bottom: 15px;
 }
+
 footer {
     text-align: center;
     padding: 20px;
