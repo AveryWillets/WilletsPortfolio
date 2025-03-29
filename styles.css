@@ -32,6 +32,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 h2 {
+    text-align: center;
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -66,24 +67,24 @@ footer {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
-    }
+}
 
 .skill-item {
     width: 48%;  /* Adjust to fit the container */
     box-sizing: border-box;
-    }
+}
 
 #skills {
     padding: 20px;
-    }
+}
 
 h2 {
     text-align: center;
-    }
+}
 
 h3 {
     margin-top: 0;
-    }
+}
 
 /* Container for all projects */
 .projects-container {
