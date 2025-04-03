@@ -185,7 +185,7 @@ h2 {
 @media (max-width: 768px) {
     .projects-container {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
-    padding: 20px;
+    padding: 0px;
 }
 }
 
