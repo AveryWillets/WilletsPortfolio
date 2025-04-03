@@ -133,7 +133,6 @@ h2 {
 
 /* Project cards styling */
 .project-card {
-    height: 450px;
     border: 1px solid #ccc; /* Light border around each project card */
     border-radius: 8px; /* Rounded corners */
     overflow: hidden; /* Prevent content overflow */
