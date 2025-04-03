@@ -187,6 +187,11 @@ h2 {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
     padding: 0px;
 }
+section {
+margin: 0px;
+margin-bottom: 0px;
+padding: 0px;
+}
 }
 
 
