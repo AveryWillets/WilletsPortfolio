@@ -184,9 +184,13 @@ h2 {
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .projects-container {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
-    padding: 0px;
+        padding: 10px;
+        margin: 0 auto;
+        gap: 20px
 }
+
+
+    
 section {
 margin: 0px;
 margin-bottom: 0px;
